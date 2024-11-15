@@ -16,7 +16,21 @@ a:hover img {
     filter: saturate(1);
 }
 
-·flex-container {
+.image-container {
     display: flex;
-    flex-direction: column;
-}
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .image-container img {
+    width: 400px;
+    height: auto;
+  }
+
+  @media (max-width: 600px) {
+    .image-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
