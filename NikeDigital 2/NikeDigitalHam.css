@@ -1,0 +1,75 @@
+body {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#pagina1 {
+    height: 100%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    font-weight: lighter;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 700px;
+}
+
+h3 {
+    color: grey;
+    font-size: 5pt;
+}
+
+#pagina2 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+#textoprincipal {
+line-height: 180%;
+word-spacing: 10%;
+}
+
+#tachado:hover{
+    text-decoration: line-through;
+}
+
+#sitio:hover {
+color: brown;
+}
+
+#pagina3 {
+    background-color: black;
+    height: 1920px;
+    width: 1920px;
+}
+
+#textoabajo {
+    color: grey;
+    font-size: 10px;
+    line-height: 250%;
+}
+
+
+
+#textosobrenegro {
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin: auto;
+    width: 30%;
+    padding: 500px;
+    color: white;
+    font-size: 30px;
+    line-height: 180%;
+}
