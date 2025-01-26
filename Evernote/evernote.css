@@ -6,8 +6,8 @@
 
         .top {
             display: flex;
-            align-items: center; /* Alinear elementos verticalmente */
-            justify-content: space-between; /* Espaciado entre logo y menú */
+            align-items: center; 
+            justify-content: space-between; 
             padding: 20px;
         }
         
