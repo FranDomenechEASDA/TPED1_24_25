@@ -17,7 +17,7 @@ h1 {
     color: white;
     font-family: sans-serif;
     text-align: center;
-    padding-top: 700px;
+    padding-top: 20px;
 }
 
 h3 {
@@ -49,9 +49,7 @@ color: brown;
 }
 
 #pagina3 {
-    background-color: black;
-    height: 1920px;
-    width: 1920px;
+   text-align: center;
 }
 
 #textoabajo {
@@ -68,7 +66,7 @@ color: brown;
     text-align: left;
     margin: auto;
     width: 30%;
-    padding: 500px;
+    padding: 50px;
     color: white;
     font-size: 30px;
     line-height: 180%;
