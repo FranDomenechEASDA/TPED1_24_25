@@ -1,25 +1,133 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-image: url(fondo-1400x860.jpg);
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
 }
 
-img {
-    width: 5%;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #222;
+    color: white;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+main {
+    padding: 20px 40px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.offer .text {
+    flex: 1;
+}
+
+.offer .text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.offer .text p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.offer .text .more-info {
+    color: #0078d4;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.offer .text .btn-plan {
+    display: inline-block;
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.offer .image {
+    flex: 1;
+    text-align: right;
+}
+
+.offer .image img {
+    max-width: 100%;
     height: auto;
-    padding-left: 8%;
 }
 
-#TextoCentral {
-    width: 30%;
-    padding-left: 8%;
+/* Author section */
+.author {
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
 }
 
-#MasInfo {
-    width: 30%;
-    padding-top: 2%;
-    padding-left: 8%;
-    color: blue;
+.author .badge {
+    background-color: #0078d4;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.8rem;
 }
 
-#Plan {
-    
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 40px;
+}
+
+footer .special-offers {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+footer .footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer .footer-links .link {
+    flex: 1;
+    min-width: 200px;
+    font-size: 0.9rem;
+}
+
+footer .footer-links .link strong {
+    font-size: 1rem;
 }
